@@ -27,7 +27,7 @@ This technology is used in various applications, from accessibility tools to soc
 **Key Features:**
 
 -- Image Captioning
-![](Images/Image-Caption.png)
+![](Image-Caption.png)
 
 ## Installation
 
