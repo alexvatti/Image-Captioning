@@ -26,7 +26,7 @@ This technology is used in various applications, from accessibility tools to soc
 
 **Key Features:**
 
--- Image Captioning
+**Image Captioning**
 ![](Image-Caption.png)
 
 ## Installation
@@ -47,7 +47,7 @@ This technology is used in various applications, from accessibility tools to soc
   pip install -r requirements.txt
 ```
 
-4. Open the Jupyter Notebook - Run the Code on the Choice of Platforms (Local/Google Coalb/Kaggle)
+4. Open the Jupyter Notebook - Run the Code on the Choice of Platforms (Local/Google Colab/Kaggle)
 
 ```   
  Image Captioning.ipynb
