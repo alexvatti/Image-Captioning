@@ -11,6 +11,7 @@ Model Saving: 💾
 - [Overview](#overview)
 - [Project Highlights](#Project-Highlights)
 - [Installation](#Installation)
+- [Usage](#Usage)
 - [Contribution](#contribution)
 - [License](#license)
 - [Contact](#contact)
@@ -52,6 +53,15 @@ This technology is used in various applications, from accessibility tools to soc
 ```   
  Image Captioning.ipynb
 ```
+## Usage
+
+1. Run the Streamlit app by executing:
+```bash
+cd App
+streamlit run app.py
+```
+
+2.The web app will open in your browser where you can upload the Image - It will caption/describe the Image
 
 ## Contribution
 
