@@ -4,7 +4,6 @@ import os
 
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.applications.inception_v3 import InceptionV3
 import tensorflow.keras.applications.inception_v3 as inception
 from tensorflow.keras.models import Model
@@ -44,7 +43,6 @@ def encodeImage(img):
     x = preprocess_input(x)
     x = encode_model.predict(x) # Get the encoding vector for the image
     x = np.reshape(x, OUTPUT_DIM )
-    print(x)
     return x
 
 def generateCaption(photo):
@@ -64,7 +62,7 @@ def generateCaption(photo):
     print(final)
     st.text_area("",final) 
 
-def responce(image_file):
+def response(image_file):
     image=encodeImage(image_file) 
     image = image.reshape((1,OUTPUT_DIM))
     generateCaption(image)
@@ -97,7 +95,7 @@ if uploaded_file is not None:
 # Button to classify
 if st.button("Show The Image Caption "):
     try:
-        responce(image)
+        response(image)
     except Exception as e:
         predicted_word=("error occured : ",e)
         st.text_area("",)
