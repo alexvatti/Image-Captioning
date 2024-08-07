@@ -21,8 +21,8 @@ Image captioning involves using deep learning models, like CNNs for feature extr
 Leveraging frameworks like TensorFlow and Keras, models can be trained to interpret and describe visual content. 
 This technology is used in various applications, from accessibility tools to social media platforms.
 
+![](App-View.png)
 
-  
 ## Project Highlights
 
 **Key Features:**
